@@ -1,0 +1,49 @@
+{
+  "name": "js-project-init",
+  "version": "0.0.1",
+  "description": "Package for JavaScript project initialization. Package includes ESLint StyleLint Prettier JsonLint config.",
+  "keywords": [
+    "javascript",
+    "js",
+    "initialization",
+    "init",
+    "eslint",
+    "stylelint",
+    "jsonlint",
+    "lint-staged"
+  ],
+  "license": "MIT",
+  "author": "max-norin",
+  "devDependencies": {
+    "@getify/eslint-plugin-proper-arrows": "^10.0.0",
+    "@signal-noise/stylelint-scales": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-deprecate": "^0.7.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-markdown": "^1.0.2",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-optimize-regex": "^1.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "eslint-plugin-unicorn": "^25.0.0",
+    "prettier": "^2.1.1",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "eslint": "^7.18.0",
+    "husky": "^4.2.5",
+    "jsonlint": "^1.6.3",
+    "lint-staged": "^10.5.3",
+    "sort-package-json": "^1.48.1",
+    "stylelint": "^13.9.0"
+  }
+}
