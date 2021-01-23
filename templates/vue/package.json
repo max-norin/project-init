@@ -10,9 +10,18 @@
     "initialization",
     "init"
   ],
+  "homepage": "https://github.com/max-norin/project-init#readme",
+  "bugs": {
+    "url": "https://github.com/max-norin/project-init/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-norin/project-init.git",
+    "directory": "./templates/vue"
+  },
   "license": "MIT",
   "author": "max-norin",
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier-vue": "^2.1.1",
     "eslint-plugin-vue": "^6.2.2",

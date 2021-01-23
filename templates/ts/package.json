@@ -1,5 +1,5 @@
 {
-  "name": "js-project-init",
+  "name": "ts-project-init",
   "version": "0.0.1",
   "description": "Package for JavaScript project initialization. Package includes ESLint StyleLint Prettier JsonLint config.",
   "keywords": [
@@ -12,19 +12,28 @@
     "jsonlint",
     "lint-staged"
   ],
+  "homepage": "https://github.com/max-norin/project-init#readme",
+  "bugs": {
+    "url": "https://github.com/max-norin/project-init/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-norin/project-init.git",
+    "directory": "./templates/ts"
+  },
   "license": "MIT",
   "author": "max-norin",
-  "devDependencies": {
+  "dependencies": {
     "@getify/eslint-plugin-proper-arrows": "^10.0.0",
     "@signal-noise/stylelint-scales": "^1.5.0",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^9.0.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-deprecate": "^0.7.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jest": "^22.20.3",
     "eslint-plugin-jsdoc": "^30.7.8",
     "eslint-plugin-markdown": "^1.0.2",
     "eslint-plugin-no-loops": "^0.3.0",
