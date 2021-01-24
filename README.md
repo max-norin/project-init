@@ -15,9 +15,14 @@ npm i git://github.com/max-norin/project-init.git#dev
  * ESLint Configuration
  */
 module.exports = {
-  extends: ['project-init/templates/nuxt/.eslintrc.js'],
+  extends: ['./node_modules/project-init/templates/nuxt/.eslintrc.js']
 }
 ```
+
+## Templates by Max Norin
+- [js/ts](./templates/ts)
+- [vue](./templates/vue)
+- [nuxt](./templates/nuxt)
 
 ## Similar projects
 - [code-lint](https://github.com/fantasticit/code-lint)
@@ -25,3 +30,10 @@ module.exports = {
 
 ## Articles about code style
 - [code style and violence](https://silentimp.github.io/codeStyleAndViolence)
+
+## TODO list
+- [ ] describe added packages in configurations
+- [ ] define configurations in vue and nuxt
+- [ ] add PostCSS
+- [ ] add cli
+- [ ]
