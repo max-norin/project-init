@@ -26,7 +26,8 @@
     "eslint-plugin-prettier-vue": "^2.1.1",
     "eslint-plugin-vue": "^6.2.2",
     "eslint-plugin-vue-scoped-css": "^1.0.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "ts-project-init": "file:../ts"
   },
   "peerDependencies": {
     "eslint": "^7.18.0"
