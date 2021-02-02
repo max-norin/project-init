@@ -1,6 +1,5 @@
 {
   "name": "project-init",
-  "version": "0.0.1",
   "description": "package for Custom project initialization",
   "keywords": [
     "project",
@@ -20,15 +19,15 @@
   "workspaces": [
     "./templates/*"
   ],
-  "dependencies": {
-    "nuxt-project-init": "file:./templates/nuxt",
-    "ts-project-init": "file:./templates/ts",
-    "vue-project-init": "file:./templates/vue"
+  "scripts": {
+    "lerna:init": "lerna bootstrap --hoist",
+    "lerna:publish": "lerna publish --git-remote github --conventional-commits --create-release github"
   },
   "devDependencies": {
     "eslint": "^7.18.0",
     "husky": "^4.2.5",
     "jsonlint": "^1.6.3",
+    "lerna": "^3.22.1",
     "lint-staged": "^10.5.3",
     "sort-package-json": "^1.48.1"
   },

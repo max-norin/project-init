@@ -1,0 +1,12 @@
+{
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "message": "chore(release): publish %s"
+    }
+  },
+  "packages": [
+    "./templates/*"
+  ],
+  "version": "independent"
+}
