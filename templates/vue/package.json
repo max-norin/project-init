@@ -1,6 +1,6 @@
 {
   "name": "@max-norin/vue-project-init",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "package for Vue project initialization",
   "keywords": [
     "javascript",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "author": "max-norin",
   "dependencies": {
-    "@max-norin/ts-project-init": "^0.0.0",
+    "@max-norin/ts-project-init": "^0.0.1-alpha.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier-vue": "^2.1.1",
     "eslint-plugin-vue": "^6.2.2",

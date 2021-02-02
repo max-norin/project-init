@@ -1,6 +1,6 @@
 {
   "name": "@max-norin/ts-project-init",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "Package for JavaScript project initialization. Package includes ESLint StyleLint Prettier JsonLint config.",
   "keywords": [
     "javascript",
